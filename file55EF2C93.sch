@@ -1,0 +1,668 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Vocanson_display
+LIBS:4000series-BJH
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:Microchip-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
+LIBS:Opto-BJH
+LIBS:CMOS-CLOCK-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title "CMOS-CLOCK"
+Date ""
+Rev ""
+Comp "hoskins.tech"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OSL20561-IX 7SEG?
+U 1 1 55EF2C9D
+P 12000 4100
+F 0 "7SEG?" H 11250 4700 60  0000 L CNN
+F 1 "OSL20561-IX" V 11350 4200 60  0000 C CNN
+F 2 "" H 12000 4100 60  0000 C CNN
+F 3 "" H 12000 4100 60  0000 C CNN
+	1    12000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSL20561-IX 7SEG?
+U 1 1 55EF2CD7
+P 14100 4100
+F 0 "7SEG?" H 13350 4700 60  0000 L CNN
+F 1 "OSL20561-IX" V 13450 4200 60  0000 C CNN
+F 2 "" H 14100 4100 60  0000 C CNN
+F 3 "" H 14100 4100 60  0000 C CNN
+	1    14100 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 11350 5000 3    50   Input ~ 0
+A
+Text GLabel 11450 5000 3    50   Input ~ 0
+B
+Text GLabel 11550 5000 3    50   Input ~ 0
+C
+Text GLabel 11650 5000 3    50   Input ~ 0
+D
+Text GLabel 11750 5000 3    50   Input ~ 0
+E
+Text GLabel 11850 5000 3    50   Input ~ 0
+F
+Text GLabel 11950 5000 3    50   Input ~ 0
+G
+Text GLabel 12050 5000 3    50   Input ~ 0
+A
+Text GLabel 12150 5000 3    50   Input ~ 0
+B
+Text GLabel 12250 5000 3    50   Input ~ 0
+C
+Text GLabel 12350 5000 3    50   Input ~ 0
+D
+Text GLabel 12450 5000 3    50   Input ~ 0
+E
+Text GLabel 12550 5000 3    50   Input ~ 0
+F
+Text GLabel 12650 5000 3    50   Input ~ 0
+G
+Text GLabel 13450 5000 3    50   Input ~ 0
+D
+Text GLabel 13550 5000 3    50   Input ~ 0
+E
+Text GLabel 13650 5000 3    50   Input ~ 0
+F
+Text GLabel 13750 5000 3    50   Input ~ 0
+A
+Text GLabel 13850 5000 3    50   Input ~ 0
+B
+Text GLabel 13950 5000 3    50   Input ~ 0
+C
+Text GLabel 14050 5000 3    50   Input ~ 0
+G
+Text GLabel 14150 5000 3    50   Input ~ 0
+D
+Text GLabel 14250 5000 3    50   Input ~ 0
+E
+Text GLabel 14350 5000 3    50   Input ~ 0
+F
+Text GLabel 14450 5000 3    50   Input ~ 0
+A
+Text GLabel 14550 5000 3    50   Input ~ 0
+B
+Text GLabel 14650 5000 3    50   Input ~ 0
+C
+Text GLabel 14750 5000 3    50   Input ~ 0
+G
+$Comp
+L BC327-25 Q?
+U 1 1 55EF37EE
+P 11800 2550
+F 0 "Q?" H 12000 2625 50  0000 L CNN
+F 1 "BC327-25" H 12000 2550 50  0000 L CNN
+F 2 "TO-92" H 12000 2475 50  0000 L CIN
+F 3 "" H 11800 2550 50  0000 L CNN
+	1    11800 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF384C
+P 11500 2300
+F 0 "R?" V 11580 2300 50  0000 C CNN
+F 1 "100K" V 11500 2300 50  0000 C CNN
+F 2 "" V 11430 2300 30  0000 C CNN
+F 3 "" H 11500 2300 30  0000 C CNN
+	1    11500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF387F
+P 11500 2800
+F 0 "R?" V 11580 2800 50  0000 C CNN
+F 1 "2K2" V 11500 2800 50  0000 C CNN
+F 2 "" V 11430 2800 30  0000 C CNN
+F 3 "" H 11500 2800 30  0000 C CNN
+	1    11500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC327-25 Q?
+U 1 1 55EF3B64
+P 12900 2550
+F 0 "Q?" H 13100 2625 50  0000 L CNN
+F 1 "BC327-25" H 13100 2550 50  0000 L CNN
+F 2 "TO-92" H 13100 2475 50  0000 L CIN
+F 3 "" H 12900 2550 50  0000 L CNN
+	1    12900 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF3B6A
+P 12600 2300
+F 0 "R?" V 12680 2300 50  0000 C CNN
+F 1 "100K" V 12600 2300 50  0000 C CNN
+F 2 "" V 12530 2300 30  0000 C CNN
+F 3 "" H 12600 2300 30  0000 C CNN
+	1    12600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF3B70
+P 12600 2800
+F 0 "R?" V 12680 2800 50  0000 C CNN
+F 1 "2K2" V 12600 2800 50  0000 C CNN
+F 2 "" V 12530 2800 30  0000 C CNN
+F 3 "" H 12600 2800 30  0000 C CNN
+	1    12600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC327-25 Q?
+U 1 1 55EF3CF1
+P 14000 2550
+F 0 "Q?" H 14200 2625 50  0000 L CNN
+F 1 "BC327-25" H 14200 2550 50  0000 L CNN
+F 2 "TO-92" H 14200 2475 50  0000 L CIN
+F 3 "" H 14000 2550 50  0000 L CNN
+	1    14000 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF3CF7
+P 13700 2300
+F 0 "R?" V 13780 2300 50  0000 C CNN
+F 1 "100K" V 13700 2300 50  0000 C CNN
+F 2 "" V 13630 2300 30  0000 C CNN
+F 3 "" H 13700 2300 30  0000 C CNN
+	1    13700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF3CFD
+P 13700 2800
+F 0 "R?" V 13780 2800 50  0000 C CNN
+F 1 "2K2" V 13700 2800 50  0000 C CNN
+F 2 "" V 13630 2800 30  0000 C CNN
+F 3 "" H 13700 2800 30  0000 C CNN
+	1    13700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC327-25 Q?
+U 1 1 55EF3D06
+P 15100 2550
+F 0 "Q?" H 15300 2625 50  0000 L CNN
+F 1 "BC327-25" H 15300 2550 50  0000 L CNN
+F 2 "TO-92" H 15300 2475 50  0000 L CIN
+F 3 "" H 15100 2550 50  0000 L CNN
+	1    15100 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF3D0C
+P 14800 2300
+F 0 "R?" V 14880 2300 50  0000 C CNN
+F 1 "100K" V 14800 2300 50  0000 C CNN
+F 2 "" V 14730 2300 30  0000 C CNN
+F 3 "" H 14800 2300 30  0000 C CNN
+	1    14800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55EF3D12
+P 14800 2800
+F 0 "R?" V 14880 2800 50  0000 C CNN
+F 1 "2K2" V 14800 2800 50  0000 C CNN
+F 2 "" V 14730 2800 30  0000 C CNN
+F 3 "" H 14800 2800 30  0000 C CNN
+	1    14800 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 12000 2800 2    50   Output ~ 0
+DIG1
+Text GLabel 13100 2800 2    50   Output ~ 0
+DIG2
+Wire Wire Line
+	11350 5000 11350 4800
+Wire Wire Line
+	11450 4800 11450 5000
+Wire Wire Line
+	11550 5000 11550 4800
+Wire Wire Line
+	11650 4800 11650 5000
+Wire Wire Line
+	11750 5000 11750 4800
+Wire Wire Line
+	11850 4800 11850 5000
+Wire Wire Line
+	11950 5000 11950 4800
+Wire Wire Line
+	12050 4800 12050 5000
+Wire Wire Line
+	12150 5000 12150 4800
+Wire Wire Line
+	12250 4800 12250 5000
+Wire Wire Line
+	12350 5000 12350 4800
+Wire Wire Line
+	12450 5000 12450 4800
+Wire Wire Line
+	12550 4800 12550 5000
+Wire Wire Line
+	12650 5000 12650 4800
+Wire Wire Line
+	13450 5000 13450 4800
+Wire Wire Line
+	13550 4800 13550 5000
+Wire Wire Line
+	13650 5000 13650 4800
+Wire Wire Line
+	13750 4800 13750 5000
+Wire Wire Line
+	13850 5000 13850 4800
+Wire Wire Line
+	13950 4800 13950 5000
+Wire Wire Line
+	14050 5000 14050 4800
+Wire Wire Line
+	14150 4800 14150 5000
+Wire Wire Line
+	14250 5000 14250 4800
+Wire Wire Line
+	14350 4800 14350 5000
+Wire Wire Line
+	14450 5000 14450 4800
+Wire Wire Line
+	14550 4800 14550 5000
+Wire Wire Line
+	14650 5000 14650 4800
+Wire Wire Line
+	14750 4800 14750 5000
+Wire Wire Line
+	11500 2450 11500 2650
+Wire Wire Line
+	11600 2550 11500 2550
+Connection ~ 11500 2550
+Wire Wire Line
+	12600 2450 12600 2650
+Wire Wire Line
+	12700 2550 12600 2550
+Connection ~ 12600 2550
+Wire Wire Line
+	13700 2450 13700 2650
+Wire Wire Line
+	13800 2550 13700 2550
+Connection ~ 13700 2550
+Wire Wire Line
+	14800 2450 14800 2650
+Wire Wire Line
+	14900 2550 14800 2550
+Connection ~ 14800 2550
+Text GLabel 14200 2800 2    50   Output ~ 0
+DIG3
+Text GLabel 15300 2800 2    50   Output ~ 0
+DIG4
+Wire Wire Line
+	11900 2750 11900 2800
+Wire Wire Line
+	11900 2800 12000 2800
+Wire Wire Line
+	13000 2750 13000 2800
+Wire Wire Line
+	13000 2800 13100 2800
+Wire Wire Line
+	14100 2750 14100 2800
+Wire Wire Line
+	14100 2800 14200 2800
+Wire Wire Line
+	15200 2750 15200 2800
+Wire Wire Line
+	15200 2800 15300 2800
+Text GLabel 13000 3700 2    50   Input ~ 0
+DIG1
+Text GLabel 13000 3950 2    50   Input ~ 0
+DIG2
+Text GLabel 15100 3950 2    50   Input ~ 0
+DIG3
+Text GLabel 15100 3700 2    50   Input ~ 0
+DIG4
+Wire Wire Line
+	12950 3700 13000 3700
+Wire Wire Line
+	13000 3950 12950 3950
+Wire Wire Line
+	15100 3700 15050 3700
+Wire Wire Line
+	15100 3950 15050 3950
+Text Notes 14850 3550 2    50   ~ 0
+Digit is mounted upside down\nfor use of DP as middle colon.\nSo connections get swapped\naround 
+$Comp
+L +5VD #PWR?
+U 1 1 55EF4959
+P 11500 2050
+F 0 "#PWR?" H 11500 1900 50  0001 C CNN
+F 1 "+5VD" H 11500 2190 50  0000 C CNN
+F 2 "" H 11500 2050 60  0000 C CNN
+F 3 "" H 11500 2050 60  0000 C CNN
+	1    11500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 2050 11500 2150
+$Comp
+L +5VD #PWR?
+U 1 1 55EF4A2D
+P 12600 2050
+F 0 "#PWR?" H 12600 1900 50  0001 C CNN
+F 1 "+5VD" H 12600 2190 50  0000 C CNN
+F 2 "" H 12600 2050 60  0000 C CNN
+F 3 "" H 12600 2050 60  0000 C CNN
+	1    12600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VD #PWR?
+U 1 1 55EF4A62
+P 13700 2050
+F 0 "#PWR?" H 13700 1900 50  0001 C CNN
+F 1 "+5VD" H 13700 2190 50  0000 C CNN
+F 2 "" H 13700 2050 60  0000 C CNN
+F 3 "" H 13700 2050 60  0000 C CNN
+	1    13700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VD #PWR?
+U 1 1 55EF4AB3
+P 14800 2050
+F 0 "#PWR?" H 14800 1900 50  0001 C CNN
+F 1 "+5VD" H 14800 2190 50  0000 C CNN
+F 2 "" H 14800 2050 60  0000 C CNN
+F 3 "" H 14800 2050 60  0000 C CNN
+	1    14800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 2050 12600 2150
+Wire Wire Line
+	13700 2050 13700 2150
+Wire Wire Line
+	14800 2050 14800 2150
+Wire Wire Line
+	11900 2350 11900 2100
+Wire Wire Line
+	11900 2100 11500 2100
+Connection ~ 11500 2100
+Wire Wire Line
+	13000 2350 13000 2100
+Wire Wire Line
+	13000 2100 12600 2100
+Connection ~ 12600 2100
+Wire Wire Line
+	14100 2350 14100 2100
+Wire Wire Line
+	14100 2100 13700 2100
+Connection ~ 13700 2100
+Wire Wire Line
+	15200 2350 15200 2100
+Wire Wire Line
+	15200 2100 14800 2100
+Connection ~ 14800 2100
+Text GLabel 11400 3100 0    50   Input ~ 0
+DIG1_en
+Wire Wire Line
+	11400 3100 11500 3100
+Wire Wire Line
+	11500 3100 11500 2950
+Text GLabel 12550 3100 0    50   Input ~ 0
+DIG2_en
+Text GLabel 13650 3100 0    50   Input ~ 0
+DIG3_en
+Text GLabel 14750 3100 0    50   Input ~ 0
+DIG4_en
+Wire Wire Line
+	12550 3100 12600 3100
+Wire Wire Line
+	12600 3100 12600 2950
+Wire Wire Line
+	13650 3100 13700 3100
+Wire Wire Line
+	13700 3100 13700 2950
+Wire Wire Line
+	14750 3100 14800 3100
+Wire Wire Line
+	14800 3100 14800 2950
+$Comp
+L 4000series-4052 U13
+U 1 1 55EF3C4E
+P 9850 1300
+F 0 "U13" H 9500 1800 60  0000 L CNN
+F 1 "4000series-4052" H 9500 1900 60  0001 L CNN
+F 2 "" H 10050 1250 60  0000 C CNN
+F 3 "" H 10050 1250 60  0000 C CNN
+F 4 "4052" H 9650 1650 60  0000 C CNN "Device"
+	1    9850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4000series-4052 U12
+U 1 1 55EF3D1E
+P 9850 2800
+F 0 "U12" H 9500 3300 60  0000 L CNN
+F 1 "4000series-4052" H 9500 3400 60  0001 L CNN
+F 2 "" H 10050 2750 60  0000 C CNN
+F 3 "" H 10050 2750 60  0000 C CNN
+F 4 "4052" H 9650 3150 60  0000 C CNN "Device"
+	1    9850 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4000series-4052 U11
+U 1 1 55EF3D90
+P 9850 4300
+F 0 "U11" H 9500 4800 60  0000 L CNN
+F 1 "4000series-4052" H 9500 4900 60  0001 L CNN
+F 2 "" H 10050 4250 60  0000 C CNN
+F 3 "" H 10050 4250 60  0000 C CNN
+F 4 "4052" H 9650 4650 60  0000 C CNN "Device"
+	1    9850 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 5100 9850 5050
+Wire Wire Line
+	9850 3600 9850 3550
+Wire Wire Line
+	9850 2050 9850 2100
+Text GLabel 9100 1550 0    50   Input ~ 0
+128HZ
+Text GLabel 9100 1650 0    50   Input ~ 0
+64HZ
+Wire Wire Line
+	9100 1550 9200 1550
+Wire Wire Line
+	9200 1650 9100 1650
+$Comp
+L +5V_BJH #PWR?
+U 1 1 55EF43E0
+P 10350 1950
+F 0 "#PWR?" H 10350 2140 20  0001 C CNN
+F 1 "+5V_BJH" H 10350 2140 51  0001 C CNN
+F 2 "" H 10350 1950 60  0001 C CNN
+F 3 "" H 10350 1950 60  0001 C CNN
+F 4 "+5V" H 10350 2150 60  0000 C CNB "NAME"
+	1    10350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55EF44A5
+P 10600 1750
+F 0 "#PWR?" H 10600 1500 50  0001 C CNN
+F 1 "GND" H 10600 1600 50  0000 C CNN
+F 2 "" H 10600 1750 60  0000 C CNN
+F 3 "" H 10600 1750 60  0000 C CNN
+	1    10600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1050 10500 1050
+Wire Wire Line
+	10500 1250 10600 1250
+Wire Wire Line
+	10500 1450 10600 1450
+$Comp
+L GND #PWR?
+U 1 1 55EF462E
+P 8750 5250
+F 0 "#PWR?" H 8750 5000 50  0001 C CNN
+F 1 "GND" H 8750 5100 50  0000 C CNN
+F 2 "" H 8750 5250 60  0000 C CNN
+F 3 "" H 8750 5250 60  0000 C CNN
+	1    8750 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1250 9200 1250
+Wire Wire Line
+	8750 1250 8750 5250
+Wire Wire Line
+	9850 5100 8750 5100
+Connection ~ 8750 5100
+Wire Wire Line
+	9850 3600 8750 3600
+Connection ~ 8750 3600
+Wire Wire Line
+	9850 2100 8750 2100
+Connection ~ 8750 2100
+Wire Wire Line
+	9200 3150 8750 3150
+Connection ~ 8750 3150
+Wire Wire Line
+	9200 3050 8750 3050
+Connection ~ 8750 3050
+Text GLabel 9100 1350 0    50   Output ~ 0
+MSD
+Wire Wire Line
+	10600 1750 10600 1050
+Connection ~ 10600 1450
+Connection ~ 10600 1250
+Text GLabel 10700 1550 2    50   Output ~ 0
+DIG1_en
+Wire Wire Line
+	10350 2000 10500 2000
+Wire Wire Line
+	10500 2000 10500 1650
+Wire Wire Line
+	10700 1550 10500 1550
+Text GLabel 10700 1350 2    50   Output ~ 0
+DIG2_en
+Wire Wire Line
+	10700 1350 10500 1350
+Text GLabel 10700 1150 2    50   Output ~ 0
+DIG3_en
+Text GLabel 10700 950  2    50   Output ~ 0
+DIG4_en
+Wire Wire Line
+	10700 1150 10500 1150
+Wire Wire Line
+	10700 950  10500 950 
+Text GLabel 10600 3050 2    50   Input ~ 0
+128HZ
+Wire Wire Line
+	10600 3050 10500 3050
+Text GLabel 10600 3150 2    50   Input ~ 0
+64HZ
+Wire Wire Line
+	10600 3150 10500 3150
+Text GLabel 9100 2450 0    50   Input ~ 0
+MIN2
+Text GLabel 9100 2550 0    50   Input ~ 0
+MIN3
+Wire Wire Line
+	9100 1350 9200 1350
+Text GLabel 9100 2650 0    50   Input ~ 0
+MIN6
+Text GLabel 9100 2750 0    50   Input ~ 0
+MIN7
+Text GLabel 9100 2850 0    50   Input ~ 0
+HR2
+Text GLabel 9100 2950 0    50   Input ~ 0
+HR3
+Wire Wire Line
+	9100 2450 9200 2450
+Wire Wire Line
+	9200 2550 9100 2550
+Wire Wire Line
+	9100 2650 9200 2650
+Wire Wire Line
+	9200 2750 9100 2750
+Wire Wire Line
+	9100 2850 9200 2850
+Wire Wire Line
+	9200 2950 9100 2950
+Text GLabel 10600 4550 2    50   Input ~ 0
+128HZ
+Wire Wire Line
+	10600 4550 10500 4550
+Text GLabel 10600 4650 2    50   Input ~ 0
+64HZ
+Wire Wire Line
+	10600 4650 10500 4650
+Text GLabel 9100 3950 0    50   Input ~ 0
+MIN0
+Text GLabel 9100 4050 0    50   Input ~ 0
+MIN1
+Text GLabel 9100 4150 0    50   Input ~ 0
+MIN4
+Text GLabel 9100 4250 0    50   Input ~ 0
+MIN5
+$EndSCHEMATC
