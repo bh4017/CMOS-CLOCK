@@ -1,5 +1,5 @@
 # CMOS-CLOCK
-
+Note that this is a work-in-progress as of September 2015.  Come back in a week or so for the finished version!
 
 # DESCRIPTION
 
