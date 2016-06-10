@@ -1,4 +1,4 @@
-update=Tue 08 Sep 2015 18:37:22 BST
+update=Fri 10 Jun 2016 08:55:43 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,17 @@ LibName39=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library
 LibName40=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Relays
 LibName41=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Transistors-BJH
 LibName42=Opto-BJH
+LibName43=680XX-CPU-BJH
+LibName44=4000series-BJH
+LibName45=AMIGA-Custom-Chipset
+LibName46=Basics-BJH
+LibName47=buzzer
+LibName48=Connectors-BJH
+LibName49=Devices-BJH
+LibName50=LCD-BJH
+LibName51=Microchip-BJH
+LibName52=OpAmps-BJH
+LibName53=Oscillators-BJH
+LibName54=PowerSymbols-BJH
+LibName55=Relays
+LibName56=Transistors-BJH

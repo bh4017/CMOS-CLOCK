@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Vocanson_display
 LIBS:4000series-BJH
 LIBS:Basics-BJH
 LIBS:buzzer
@@ -41,6 +40,9 @@ LIBS:PowerSymbols-BJH
 LIBS:Relays
 LIBS:Transistors-BJH
 LIBS:Opto-BJH
+LIBS:680XX-CPU-BJH
+LIBS:AMIGA-Custom-Chipset
+LIBS:OpAmps-BJH
 LIBS:CMOS-CLOCK-cache
 EELAYER 25 0
 EELAYER END
