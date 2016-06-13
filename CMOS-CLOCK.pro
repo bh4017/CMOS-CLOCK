@@ -1,4 +1,4 @@
-update=Sat 11 Jun 2016 16:22:44 BST
+update=Mon 13 Jun 2016 21:40:54 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../hoskinstech/bjh-kicad-schematic-library
@@ -100,3 +98,5 @@ LibName68=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Oscillators
 LibName69=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/PowerSymbols-BJH
 LibName70=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Relays
 LibName71=/home/brian/github/hoskinstech/bjh-kicad-schematic-library/Transistors-BJH
+[general]
+version=1
